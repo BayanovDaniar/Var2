@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="18" class="java.beans.XMLDecoder">
+ <object class="Labs.Var2.Lab6.Bank" id="Bank0">
+  <void property="branchList">
+   <void method="add">
+    <object class="Labs.Var2.Lab6.Branch" id="Branch0">
+     <void property="contributionList">
+      <void method="add">
+       <object class="Labs.Var2.Lab6.ShortTermInvest">
+        <void property="nameContributor">
+         <string>Elton John</string>
+        </void>
+        <void property="sumContr">
+         <int>10000</int>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="Labs.Var2.Lab6.LongTermInvest">
+        <void property="nameContributor">
+         <string>Mickael Jordan</string>
+        </void>
+        <void property="sumContr">
+         <int>13000</int>
+        </void>
+       </object>
+      </void>
+     </void>
+     <void property="name">
+      <string>Tomsk</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Labs.Var2.Lab6.Branch" id="Branch1">
+     <void property="contributionList">
+      <void method="add">
+       <object class="Labs.Var2.Lab6.ShortTermInvest">
+        <void property="nameContributor">
+         <string>Marshall Welles</string>
+        </void>
+        <void property="sumContr">
+         <int>10200</int>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="Labs.Var2.Lab6.LongTermInvest">
+        <void property="nameContributor">
+         <string>Mr Collins</string>
+        </void>
+        <void property="sumContr">
+         <int>700</int>
+        </void>
+       </object>
+      </void>
+     </void>
+     <void property="name">
+      <string>Nsb</string>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="name">
+   <string>Tinko-ff</string>
+  </void>
+ </object>
+</java>
